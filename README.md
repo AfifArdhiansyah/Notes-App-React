@@ -1,5 +1,5 @@
-#React App Final Project Dicoding : (Aplikasi Pencatatan)
-Ini merupakan projek tugas akhir dari kelas "Belajar Membuat Aplikasi Web dengan React" Dicoding. 
+# React App Final Project Dicoding : (Aplikasi Pencatatan)
+Ini merupakan projek tugas akhir dari kelas "Belajar Membuat Aplikasi Web dengan React" Dicoding. Aplikasi ini menerapkan library React.js dalam membuat web pencatatan. Fitur-fitur aplikasi ini seperti menambahkan note baru, menampilkan note, memindahkan note ke arsip, menghapus note, dan mencari note. 
 
 # Getting Started with Create React App
 
