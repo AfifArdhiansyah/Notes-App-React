@@ -1,3 +1,6 @@
+#React App Final Project Dicoding : (Aplikasi Pencatatan)
+Ini merupakan projek tugas akhir dari kelas "Belajar Membuat Aplikasi Web dengan React" Dicoding. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
