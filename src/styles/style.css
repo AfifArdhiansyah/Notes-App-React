@@ -1,0 +1,144 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#formInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.inputTitle{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inputBody{
+    width: 50%;
+    height: 30vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.searchBox{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.submitButton{
+    width: 50%;
+    background-color: green;
+    color: greenyellow;
+}
+
+.deleteButton{
+    background-color: rgb(153, 29, 29);
+    color: rgb(255, 173, 173);
+}
+
+.archiveButton{
+    background-color: rgb(139, 139, 22);
+    color: rgb(255, 255, 148);
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    box-shadow: 0 0 3px black;
+}
+
+.noteList{
+    display: inline-grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+
+.noteItem{
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px black;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    background-color: white;
+}
+
+h3{
+    width: 100%;
+    text-align: center;
+}
+
+.noteItemContent p{
+    width: 100%;
+}
+
+.noteItemContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+#notes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.noteItemAction{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.noteItemAction button{
+    width: 45%;
+}
+
+@media screen and (max-width:1000px) {
+    .inputTitle{
+        width: 80%;
+    }    
+    .inputBody{
+        width: 80%;
+    }
+    .submitButton{
+        width: 80%;
+    }
+    .noteList{
+        display: inline-grid;
+        grid-template-columns: 40vw 40vw;
+    }
+    .searchBox{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .searchBox{
+        width: 50%;
+    }
+    .noteList{
+        display: inline-grid;
+        grid-template-columns: 80vw;
+    }
+}
